@@ -9,8 +9,7 @@ export const SectionMain = styled.main`
     height: 800px;
     width: 100%;
     height: 700px;
-    overflow: hidden;
-
+    
 
     &::before, &::after {
         position: absolute;
@@ -30,3 +29,4 @@ export const SectionMain = styled.main`
         left: 70%;
     }
 `
+

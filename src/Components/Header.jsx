@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const Header = styled.section`
+    background: -webkit-linear-gradient(to right, #6441a5, #2a0845);
+    background: linear-gradient(to right, #6441a5, #2a0845);
     width: 100%;
     height: 80px;
     display: flex;
     justify-content: flex-end;
-    border: 1px solid;
 
     ul {
         margin: 0 50px;
@@ -22,6 +23,7 @@ export const Header = styled.section`
             transition: all 0.3s;
 
             &:hover {
+                text-decoration: underline;
                 transform: scale(1.3);
                 letter-spacing: 0.2rem;
             }
