@@ -2,6 +2,7 @@ import "./App.css"
 import { Container } from "./Components/Container";
 import { ContainerImg } from "./Components/ContainerImg";
 import { Header } from "./Components/Header";
+import { Dados } from "./Components/Infos";
 import { SectionMain } from "./Components/SectionMain";
 import { SectionProject } from "./Components/SectionProject";
 
@@ -29,16 +30,20 @@ function App() {
       </Header>
       <SectionMain id="home">
         <Container>
+            <div className="divisoria"></div>
             <ContainerImg>
               <img 
                 className="imagem"
                 src="https://github.com/marcelo1080p.png"
               />
             </ContainerImg>
+            <Dados>
+              <h2>Hi, I'm <strong>Marcelo</strong></h2>
+              <p>Frond-end Developer</p>
+            </Dados>
+            
         </Container>
-        <Container>
 
-        </Container>
       </SectionMain>
 
       <SectionProject id="project">

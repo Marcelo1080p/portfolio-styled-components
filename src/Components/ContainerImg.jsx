@@ -1,25 +1,6 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
+import { backgroundAnime, animeImg } from "./animations";
 
-const animeImg = keyframes`
-    from {
-        transform: translate(-5px, 5px);
-        
-    }
-    to {
-        transform: translate(5px, -5px);
-    }
-`
-
-
-const backgroundAnime = keyframes`
-    from {
-        background-position: 0 50%;
-    }
-
-    to {
-        background-position: 100% 0;
-    }
-`
 
 export const ContainerImg = styled.div`
     position: relative;
@@ -41,7 +22,7 @@ export const ContainerImg = styled.div`
         height: 80%;
         background: linear-gradient(to right, #536976, #292e49);
         background-size: 300% 300%;
-        animation: ${backgroundAnime} 5s infinite alternate;
+        animation: ${backgroundAnime} 3s infinite alternate;
         filter: blur(10px); 
     }
     
@@ -58,7 +39,7 @@ export const ContainerImg = styled.div`
         width: 90%;
         z-index: 1;
         border-radius: 8px;
-        animation: ${animeImg} 2s infinite alternate ease-in-out;
+        animation: ${animeImg} 3s infinite alternate ease-in-out;
     }
 
 `

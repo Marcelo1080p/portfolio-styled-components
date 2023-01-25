@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const SectionMain = styled.main`
-display: flex;
+    position: relative;
+    display: flex;
+    justify-content: center;
     background: -webkit-linear-gradient(to right, #6441a5, #2a0845);
     background: linear-gradient(to right, #6441a5, #2a0845);
     height: 800px;
