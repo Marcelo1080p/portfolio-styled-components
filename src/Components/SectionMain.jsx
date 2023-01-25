@@ -21,12 +21,12 @@ export const SectionMain = styled.main`
         width: 360px;
     }
     &::before {
-        top: 10%;
-        left: 10%;
+        top: 19%;
+        left: 2%;
     }
     &::after {
-        top: 50%;
-        left: 70%;
+        top: 1%;
+        left: 65%;
     }
 `
 

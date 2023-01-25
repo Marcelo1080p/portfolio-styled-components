@@ -39,7 +39,7 @@ function App() {
             </ContainerImg>
             <Dados>
               <h2>Hi, I'm <strong>Marcelo</strong></h2>
-              <p>Frond-end Developer</p>
+              <p>Frond-end Developer.</p>
             </Dados>
             
         </Container>
@@ -47,7 +47,8 @@ function App() {
       </SectionMain>
 
       <SectionProject id="project">
-        <h1>Hello 2</h1>
+        <h1>Projects</h1>
+        
       </SectionProject>
     </div>
   );
