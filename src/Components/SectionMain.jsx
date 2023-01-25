@@ -9,7 +9,6 @@ export const SectionMain = styled.main`
     height: 800px;
     width: 100%;
     height: 700px;
-    border: 1px solid #000;
     overflow: hidden;
 
 
