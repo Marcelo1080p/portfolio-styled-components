@@ -1,11 +1,22 @@
 import styled from "styled-components";
 
 export const SectionProject = styled.section`
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 600px;
     background: -webkit-linear-gradient(to right, #6441a5, #2a0845);
     background: linear-gradient(to right, #6441a5, #2a0845);
+
+    .titulo {
+        color: #000;
+        text-transform: uppercase;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.1rem;
+        z-index: 1;
+    }
 
     &::before, &::after {
         position: absolute;

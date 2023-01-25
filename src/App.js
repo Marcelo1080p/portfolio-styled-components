@@ -1,6 +1,7 @@
 import "./App.css"
 import { Container } from "./Components/Container";
 import { ContainerImg } from "./Components/ContainerImg";
+import { ContainerProjets } from "./Components/ContainerProjets";
 import { Header } from "./Components/Header";
 import { Dados } from "./Components/Infos";
 import { SectionMain } from "./Components/SectionMain";
@@ -47,8 +48,10 @@ function App() {
       </SectionMain>
 
       <SectionProject id="project">
-        <h1>Projects</h1>
-        
+        <h1 className="titulo">Projects</h1>
+        <ContainerProjets>
+
+        </ContainerProjets>
       </SectionProject>
     </div>
   );
