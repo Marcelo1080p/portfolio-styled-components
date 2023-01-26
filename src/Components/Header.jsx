@@ -16,6 +16,7 @@ export const Header = styled.section`
         align-items: center;
         
         a {
+            z-index: 1;
             font-family: "Inter", sans-serif;
             font-size: 1.3rem;
             color: #000;

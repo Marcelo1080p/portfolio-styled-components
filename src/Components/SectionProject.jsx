@@ -6,7 +6,7 @@ export const SectionProject = styled.section`
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 900px;
     background: -webkit-linear-gradient(to right, #6441a5, #2a0845);
     background: linear-gradient(to right, #6441a5, #2a0845);
 

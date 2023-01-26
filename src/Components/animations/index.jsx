@@ -11,19 +11,21 @@ export const animeImg = keyframes`
 `
 export const translatPos1 = keyframes`
     from {
+        filter: blur(5px);
         transform: translateX(-300px);
     }
     to {
+        filter: blur(0px);
         transform: translateX(0);
     }
 `
 
 export const opacity = keyframes`
     from {
-        opacity: 0;
+        filter: blur(5px);
     }
     to {
-        opacity: 1;
+        filter: blur(0);
     }
 `
 

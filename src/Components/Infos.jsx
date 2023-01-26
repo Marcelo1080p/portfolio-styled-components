@@ -25,7 +25,7 @@ export const Dados = styled.section`
 
     p {
         color: #ffffff9d;
-        animation: ${opacity} 4s ;
+        animation: ${opacity} 2s ;
         transition-delay: 1s;
         
     }
