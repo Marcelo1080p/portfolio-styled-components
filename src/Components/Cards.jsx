@@ -18,7 +18,6 @@ export const Cards = styled.div`
     .tecs {
         border: 1px solid;
         display: flex;
-        
         width: 95%;
     }
 `

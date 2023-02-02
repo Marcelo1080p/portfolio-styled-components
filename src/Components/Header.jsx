@@ -22,6 +22,7 @@ export const Header = styled.section`
             color: #000;
             cursor: pointer;
             transition: all 0.3s;
+            text-decoration: none;
 
             &:hover {
                 text-decoration: underline;

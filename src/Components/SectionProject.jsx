@@ -26,6 +26,7 @@ export const SectionProject = styled.section`
         border-radius: 50%;
         height: 360px;
         width: 360px;
+      
     }
     &::before {
         top: 100%;

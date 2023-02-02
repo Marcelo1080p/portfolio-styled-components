@@ -17,18 +17,21 @@ function App() {
       linkGitHub: 'https://github.com/Marcelo1080p/gerador-de-gradient',
       tecnologias: ["ReactJs", "Js"],
       imgs: '././gradient_img.png',
+      cor: "yellow"
     },
     {
       nome: 'Gradient generator',
       linkGitHub: 'https://github.com/Marcelo1080p/gerador-de-gradient',
       tecnologias: ['ReactJs'],
       imgs: '././gradient_img.png',
+      cor: "yellow"
     },
     {
       nome: 'Gradient generator',
       linkGitHub: 'https://github.com/Marcelo1080p/gerador-de-gradient',
       tecnologias: ['ReactJs'],
       imgs: '././gradient_img.png',
+      cor: "yellow"
     }
   ]
 
@@ -40,7 +43,7 @@ function App() {
         <ul>
           <a href="#home">Home</a>
           <a href="#project">Project</a>
-          <a>About</a>
+          <a href="#">About</a>
         </ul>
       </Header>
       <SectionMain id="home">
@@ -70,7 +73,7 @@ function App() {
               <h2>{projeto.nome}</h2>
               <p className="tecs">
                 tecnologias usadas: {projeto.tecnologias.map((tec) => (
-                  <BtnTecs>{tec}</BtnTecs>
+                  <BtnTecs cor={projeto.cor}>{tec}</BtnTecs>
                 ))}
               </p>
             </Cards>
